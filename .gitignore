@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+frontend/dist/
+ML_CP/frontend/dist/
+
+# Notebook and tooling output
+.ipynb_checkpoints/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
