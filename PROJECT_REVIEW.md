@@ -2,7 +2,7 @@
 
 ## 1. Executive Summary
 
-SafePath AI is a prototype smart-navigation application that combines:
+SmartSafe Nav is a prototype smart-navigation application that combines:
 
 - A synthetic safety dataset containing route, environment, crime, infrastructure, and traffic factors.
 - A saved machine-learning classifier that predicts a safety label.
@@ -450,6 +450,6 @@ Because this system makes safety-related recommendations for women traveling, te
 
 ## 11. Final Conclusion
 
-SafePath AI has a coherent demonstration story and a useful separation between the ML work, backend services, and frontend presentation. The strongest technical contribution is the hybrid route scoring idea: a learned safety prediction is combined with interpretable factors and displayed against route geometry.
+SmartSafe Nav has a coherent demonstration story and a useful separation between the ML work, backend services, and frontend presentation. The strongest technical contribution is the hybrid route scoring idea: a learned safety prediction is combined with interpretable factors and displayed against route geometry.
 
 The project is not yet ready to claim that it finds objectively safe routes. Today it finds up to three general driving routes from OSRM and ranks them using synthetic, sampled safety estimates. The next engineering priority should be reproducibility and correctness: consolidate the repository, document dependencies and model metadata, formalize the API contract, add tests, and make the scoring limitations visible. The next research priority should be validating the data and building a genuinely safety-aware graph-based routing method.
