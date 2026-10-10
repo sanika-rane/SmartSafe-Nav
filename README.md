@@ -1,6 +1,6 @@
-# SafePath AI
+# SmartSafe Nav
 
-SafePath AI is a prototype smart-navigation system that ranks driving-route alternatives using predicted safety and multiple contextual factors such as crime probability, street lighting, CCTV, crowd density, weather, public transport, emergency booths, and police distance.
+SmartSafe Nav is a prototype smart-navigation system that ranks driving-route alternatives using predicted safety and multiple contextual factors such as crime probability, street lighting, CCTV, crowd density, weather, public transport, emergency booths, and police distance.
 
 > This is a research/demo prototype. A `Safe` result is a model prediction, not a guarantee of personal safety. The current system uses synthetic data and ranks alternatives returned by OSRM; it does not yet search a fully safety-weighted road graph.
 
